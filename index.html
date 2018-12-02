@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>sylucky.github.io</title>
+	<base target="_blank">
 	<meta charset="utf-8">
 	<meta name="keyword" content="sylucky.github.io">
 	<meta name="description" content="sylucky.github.io">
@@ -12,7 +13,8 @@
 			margin: 0;
 		}
 		body{
-			background: url("img/10.jpg");
+			background: url("img/10.jpg") no-repeat;
+
 		}
 		article{
 			width: 1333px;
@@ -21,30 +23,157 @@
 		}
 	</style>
 	<script type="text/javascript" src="js/python.js"></script>
+	<script type="text/javascript" src="js/form.js"></script>
 </head>
 <body>
+	<!-- header下雪特效 -->
 	<header>
-		<section>
-<!-- 			<div class="snow_man">	
-			</div>
-			<div class="tree0">	
-			</div>
-			<div class="tree1">	
-			</div>
-			<div class="tree2">	
-			</div>
-			<div class="tree3">	
-			</div>
-			<div class="tree4">	
-			</div>
-			<div class="tree5">	
-			</div> -->
-		</section>
+		<div>
+		</div>
 	</header>
-<!-- 	<article></article> -->
+
+	<section>
+		<!-- 页眉选择框 -->
+		<div class="headnav">
+			<div class="headnav_all">
+				<img src="img/19.jpg">
+				<div class="lists">
+					<div class="head_list">
+						<div class="head_list_text">
+							<a href="WEB前端.html">WEB前端</a>
+						</div>
+						<div class="head_list_img">
+							<div class="img_content">
+								<a href="http://www.runoob.com/docker/docker-tutorial.html">
+									<img src="img/html.png">
+								</a>
+								<div class="img_content_text">
+									<a href="http://www.runoob.com/docker/docker-tutorial.html">HTML</a>
+								</div>
+							</div>
+							
+							<div class="img_content">
+								<a href="https://blog.csdn.net/itguangit/article/details/80222387">
+									<img src="img/2.png">
+								</a>
+								<div class="img_content_text">
+									<a href="http://www.runoob.com/docker/docker-tutorial.html">CSS</a>
+								</div>
+							</div>
+							<div class="img_content">
+								<a href="http://www.docker.org.cn/">
+									<img src="img/3.png">
+								</a>
+								<div class="img_content_text">
+									<a href="http://www.runoob.com/docker/docker-tutorial.html">JavaScript</a>
+								</div>
+							</div>							
+						</div>
+						
+					</div>
+					<div class="head_list">
+						<div class="head_list_text">
+							<a href="C++">C++</a>
+						</div>
+						<div class="head_list_img">
+						
+						</div>
+					</div>
+					<div class="head_list">
+						<div class="head_list_text">
+							<a href="JAVA">JAVA</a>
+						</div>
+						<div class="head_list_img">
+						
+						</div>
+					</div>
+					<div class="head_list">
+						<div class="head_list_text">
+							<a href="PYTHON">PYTHON</a>
+						</div>
+						<div class="head_list_img">
+						
+						</div>
+					</div>
+					<div class="head_list">
+						<div class="head_list_text">
+							<a href="TOOLS">TOOLS</a>
+						</div>
+						<div class="head_list_img">
+						
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- github主页 -->
+			<div class="head_href">
+				<a href="https://sylucky.github.io/" target="_self"><img src="img/20.png" style="width: 66px"></a>
+			</div>
+			<!-- 知乎主页 -->
+			<div class="head_href">
+				<a href="https://www.zhihu.com/people/sylucky.zhihu.io/posts"><img src="img/21.png" style="width: 66px"></a>
+			</div>
+			<!-- WEB前端主页链接 -->
+			<div class="head_text">
+				<a href="WEB前端.html"><p>WEB前端</p></a>
+			</div>
+			<!-- C++主页链接 -->
+			<div class="head_text">
+				<a href="C++.html"><p>C++</p></a>
+			</div>
+			<!-- JAVA主页链接 -->
+			<div class="head_text">
+				<a href="JAVA.html"><p>JAVA</p></a>
+			</div>
+			<!-- PYTHON主页链接 -->
+			<div class="head_text">
+				<a href="PYTHON.html"><p>PYTHON</p></a>
+			</div>
+			<!-- 工具类主页链接 -->
+			<div class="head_text">
+				<a href="TOOLS.html"><p>TOOLS</p></a>
+			</div>
+
+			<div class="head_href head_lele" style="float: right;">
+				<a href="https://www.zhihu.com/people/sylucky.zhihu.io/posts"><img src="img/乐乐.png" style="width: 66px"></a>
+			</div>
+			
+			<!-- 搜索框实现 -->
+			<div class="head_search">
+				<form id="search_form">
+					<input type="text" name="" class="head_search_input" id="head_search_input" onkeydown="enterIn(event)">
+					<input type="submit" name="" class="head_search_btn" value="Search" id="SearchBtn" onclick="clickSearch()">
+
+				</form>
+			</div>
+			<!-- 简历主页链接 -->
+			<div class="head_profile">
+				<a href="简历.html"><p>简历</p></a>
+			</div>
+		</div>
+		<!-- 轮播图片 -->
+		<div class="container">
+			<div class="list"><a href="WEB前端.html"><p>WEB前端</p></a></div>
+			<div class="list"><a href="C++.html"><p>C++</p></a></div>
+			<div class="list"><a href="JAVA.html"><p>JAVA</p></a></div>
+			<div class="list"><a href="PYTHON.html"><p>PYTHON</p></a></div>
+			<div class="list"><a href="TOOLS.html"><p>TOOLS</p></a></div>
+			<div class="picture"></div>
+		</div>
+	</section>
+	<!-- 常用链接 -->
 	<footer>
-		<div class="nav">
-			<img src="img/16.png" onclick="document.location.href='http://www.ivsky.com'"></img>
+		<div class="footer_nav">
+			<a href="http://www.ivsky.com"><img src="img/16.png"></img></a>
+			<a href="http://www.w3school.com.cn"><img src="img/HTML5.png"></img></a>
+			<a href="http://www.w3school.com.cn/cssref/index.asp"><img src="img/CSS.png"></img></a>
+			<a href="http://www.w3school.com.cn/jsref/index.asp"><img src="img/JS.png"></img></a>
+			<a href="html/python/index.html"><img src="img/13.png"></img></a>
+			<a href="http://www.runoob.com/cplusplus/cpp-tutorial.html"><img src="img/C++ LOGO.png"></img></a>
+			<a href="http://www.runoob.com/java/java-tutorial.html"><img src="img/JAVA LOGO.png"></img></a>
+			<a href="http://www.docker.org.cn/"><img src="img/DOCKER LOGO.png"></img></a>
+			<a href="http://www.ivsky.com"><img src="img/乐乐.png"></img></a>
+<!-- 			<img src="img/16.png" onclick="document.location.href='http://www.ivsky.com'"></img>
 			<img src="img/2.png" onclick="document.location.href='http://www.w3school.com.cn/html5/html5_reference.asp'">
 			<img src="img/3.png" onclick="document.location.href='http://www.w3school.com.cn/cssref/index.asp'">
 			<img src="img/4.png" onclick="document.location.href='http://www.w3school.com.cn/jsref/index.asp'">
@@ -52,8 +181,12 @@
 			<img src="img/6.png" onclick="document.location.href='http://www.runoob.com/python3/python3-tutorial.html'">
 			<img src="img/7.png" onclick="document.location.href='http://nodejs.cn/api/'">
 			<img src="img/8.png" onclick="document.location.href='http://www.w3school.com.cn/jsref/dom_obj_all.asp'">
-			<img src="img/9.png" onclick="document.location.href='https://sylucky.github.io'">
+			<img src="img/9.png" onclick="document.location.href='https://sylucky.github.io'"> -->
 		</div>
 	</footer>
+	<p class="copyright" data-spm-anchor-id="5176.8142029.631162.i0.e9396d3eyF69Fp">
+		© 2018-2028 sylucky.zhihu.io 版权所有 个人主页：
+		<a href="https://www.zhihu.com/people/sylucky.zhihu.io/posts">https://www.zhihu.com/people/sylucky.zhihu.io/posts</a>
+    </p>
 </body>
 </html>

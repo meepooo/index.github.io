@@ -3,14 +3,21 @@
 			width: 1333px;
 			height: 800px;
 			background: url(../img/header-bg.png);
+			position: absolute;
 		}
 
-		section{
+		header div{
 			width: 100%;
 			height: 600px;
 			background: url(../img/snow-bg.png) 0 0;
 			margin: 0 auto;
 			animation: snow 10s linear infinite;
+		}
+
+		section{
+			width: 100%;
+			position: absolute;
+			top: 0;
 		}
 
 		@keyframes snow{
