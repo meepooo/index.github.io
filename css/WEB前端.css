@@ -91,6 +91,26 @@
 			margin-top: 5px;
 			margin-bottom: 5px;
 			font-size: 20px;
-			font-family: "times new roman";color: #7eade8;;
+			font-family: "times new roman";color: #7eade8;
+		}
+		.web_content_works{
+			width: 100%;
+			height: 150px;
+			border-bottom: 5px solid #2b2424;
+			float: left;
+			overflow: hidden;
+		}
+		.web_content_works a{
+			color: #7eade8;
+			font-size: 20px;
+		}
+		.web_content_works p{
+			margin-top: 10px;
+			margin-bottom: 5px;
+			font-family: "宋体";
+			font-size: 20px;
+		}
+		.web_content h3{
+			font-family: "times new roman";color: #7eade8;
 		}
 	</style>
