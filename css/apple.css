@@ -153,9 +153,9 @@
 			text-align: center;
 		}
 		/*左边框显示样式*/
-		.headnav_all:hover .lists{
+/* 		.headnav_all:hover .lists{
 			display: block;
-		}
+		} */
 		/*页面链接样式*/
 		.head_href,.head_profile{
 			width: 66px;
