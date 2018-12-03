@@ -73,6 +73,7 @@
 			position: relative;
 			/*opacity: 0.5;*/
 		}
+		/*左上角所有链接选择框样式*/
 		.headnav_all{
 			width: 40px;
 			height: 100%;
@@ -81,9 +82,10 @@
 			border-right: 1px solid #0d87e8;*/
 		}
 		/*左边框样式*/
-		.lists{
-			width: 1000px;
-			height: 400px;
+		/*左上角所有链接选择框下拉列表*/
+		.lists,.lists_web{
+			width: 800px;
+			height: 500px;
 			float: left;
 			background-color: white;
 			/*background: url(../img/星系2.jpg);*/
@@ -95,7 +97,7 @@
 		/*左边框内块样式*/
 		.head_list{
 			width: 100%;
-			height: 19%;
+			height: 16%;
 			/*background-color: yellow;*/
 			overflow: hidden;
 			border-bottom: 1px solid #af6868;
@@ -201,7 +203,7 @@
 		/*主页轮播图片样式*/
 		.container{
 			/*样式名称(宽度):样式值*/
-			width:100% ;
+			width:1000px ;
 			height: 360px;
 			margin: 100px auto;
 			background-color: fuchsia;
@@ -224,7 +226,7 @@
 			width: 100%;
 			height: 320px;
 			background-color: skyblue;
-			background-image: url(../img/WEB前端.jpg);
+			background: url(../img/WEB前端.jpg) no-repeat;
 			transition: 1s;/*过度时间*/
 		}
 		/*当鼠标滑到list上面时，执行括号当中的代码*/
@@ -234,16 +236,16 @@
 		}
 		/*当鼠标滑到list上面时，改变picture*/
 		.list:nth-child(2):hover ~ .picture{
-			background-image: url(../img/C++.png);
+			background: url(../img/C++.png) no-repeat;
 		}
 		.list:nth-child(3):hover ~ .picture{
-			background: url(../img/JAVA.jpg);
+			background: url(../img/JAVA.jpg) no-repeat;
 		}
 		.list:nth-child(4):hover ~ .picture{
-			background-image: url(../img/PYTHON.png);
+			background: url(../img/PYTHON.png) no-repeat;
 		}
 		.list:nth-child(5):hover ~ .picture{
-			background-image: url(../img/docker.png);
+			background: url(../img/docker.png) no-repeat;
 		}
 		/*简历主页链接*/
 		.head_profile{
@@ -258,5 +260,15 @@
 		}
 		.copyright a{
 			font-family: "宋体","SimSun";color: black;
+		}
+/*		.head_text_web:hover .lists_web{
+			display: block;
+		}*/
+		/* .head_text:hover .lists_web{
+			display: block;
+		} */
+		.lists_web{
+			transform: translateY(21px);
+			/*display: block;*/
 		}
 	</style>
