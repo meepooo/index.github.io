@@ -32,10 +32,8 @@
 			float: left;
 		}
 		.web_front_right{
-			width: 20%;
+			width: 100%;
 			height: 100%;
-			margin-left: 10px;
-			margin-right: 10px;
 			background-color: #615a5a;
 			float: right;
 		}

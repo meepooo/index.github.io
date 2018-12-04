@@ -1,7 +1,7 @@
 	<style type="text/css">
 		/*body样式*/
 		body{
-			display: flex;/*弹性容器*/
+			display: flex;
 			justify-content: center;
 			position: relative;
 			width: 1333px;
@@ -21,7 +21,7 @@
 			justify-content: center;
 			width: 50%;
 			height: 50%;
-			margin:0 auto ;
+			margin: 15px auto ;
 /*			background-color: rgba(255,255,255,0.5);*/
 		}
 		.footer_nav a{
@@ -30,7 +30,7 @@
 			float: left;
 		}
 		.footer_nav a:hover{
-			transform: scale(2) rotate(90deg);
+			transform: scale(1.5) rotate(30deg);
 			margin-left: 10px;
 			margin-right: 10px;
 			transition: 0.5s;
@@ -78,8 +78,7 @@
 			width: 40px;
 			height: 100%;
 			float: left;
-			/*background: url(img/19.jpg);*//*
-			border-right: 1px solid #0d87e8;*/
+			/* border-right: 1px solid #0d87e8; */
 		}
 		/*左边框样式*/
 		/*左上角所有链接选择框下拉列表*/
@@ -88,7 +87,6 @@
 			height: 500px;
 			float: left;
 			background-color: white;
-			/*background: url(../img/星系2.jpg);*/
 			display: none;
 			transform: translateY(-5px);
 			/*opacity: 0.5;*/
@@ -123,10 +121,6 @@
 			width: 70%;
 			height: 100%;
 			float: left;
-			/*background-color: red;*/
-/*			display: flex;
-			justify-content: center;*/
-			/*position: absolute;*/
 		}
 		/*左边框内块样式右边链接样式*/
 		.img_content{
@@ -261,14 +255,16 @@
 		.copyright a{
 			font-family: "宋体","SimSun";color: black;
 		}
+		.lists_web{
+			transform: translateY(21px);
+			/*display: block;*/
+		}
+
 /*		.head_text_web:hover .lists_web{
 			display: block;
 		}*/
 		/* .head_text:hover .lists_web{
 			display: block;
 		} */
-		.lists_web{
-			transform: translateY(21px);
-			/*display: block;*/
-		}
+
 	</style>
