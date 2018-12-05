@@ -7,14 +7,16 @@
 				text-decoration:none;
 			}
 			.header{
-				width: 100%;
+				/* width: 100%; */
+				width: 1333px;
 				height: 80px;
 				background-color: #00BFFF;
 				position: relative;
 				/* float: left; */
 			}
 			.footer{
-				width: 100%;
+				/* width: 100%; */
+				width: 1333px;
 				height: 100px;
 				background-color: #00BFFF;
 				margin-top: 760px;
