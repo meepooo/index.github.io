@@ -51,6 +51,15 @@ window.onload=function(){
 				output[i].style.display="none";
 			}
 		}
+		input[5].onclick=function(){
+			var index = 5 ;
+			for(var i=0;i<input.length;i++){
+				if( i == index )
+					output[i].style.display="block";
+				else
+				output[i].style.display="none";
+			}
+		}
 		
 		var objbox = document.getElementsByClassName("obj_box");
 		var projbox = document.getElementsByClassName("proj_box");
